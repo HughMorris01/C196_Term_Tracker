@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Save Course"
+        android:id="@+id/saveCourse"
+        android:onClick="onOptionsItemsSelected"/>
+    <item android:title="Delete Course"
+        android:id="@+id/deleteCourse"
+        android:onClick="onOptionsItemsSelected"/>
+    <item android:title="Add Assessment"
+        android:id="@+id/addAssessment"
+        android:onClick="onOptionsItemsSelected"/>
+    <item android:title="Share Note"
+        android:id="@+id/shareNote"
+        android:onClick="onOptionsItemsSelected" />
+    <item android:title="Set Start Alert"
+        android:id="@+id/startAlert"
+        android:onClick="onOptionsItemsSelected"/>
+    <item android:title="Set End Alert"
+        android:id="@+id/endAlert"
+        android:onClick="onOptionsItemsSelected"/>
+
+
+</menu>

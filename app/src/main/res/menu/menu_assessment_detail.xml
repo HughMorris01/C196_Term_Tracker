@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Save Assessment"
+        android:id="@+id/saveAssessment"
+        android:onClick="onOptionsItemsSelected"/>
+    <item android:title="Delete Assessment"
+        android:id="@+id/deleteAssessment"
+        android:onClick="onOptionsItemsSelected" />
+    <item android:title="Set Start Alert"
+        android:id="@+id/startAlert"
+        android:onClick="onOptionsItemsSelected"/>
+    <item android:title="Set End Alert"
+        android:id="@+id/endAlert"
+        android:onClick="onOptionsItemsSelected" />
+</menu>
